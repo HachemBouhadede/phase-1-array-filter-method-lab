@@ -40,6 +40,6 @@ const driversObject = [
   ];
 
 const matchName = (array, name) => {
-    return array.filter(driver => driver.name.toLowerCase() === name.toLowerCase());
+    return array.filter(obj => obj.name.toLowerCase() === name.toLowerCase());
   };
 console.log(`Match Name function :`,matchName(driversObject, "Bobby"))  
